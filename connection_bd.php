@@ -1,6 +1,6 @@
 <?php
 
-$db = new mysqli("localhost", "lejenome", "moez6639", "voyage");
+$db = new mysqli("localhost", "root", "root", "voyage");
 if ($db->connect_errno) {
     die("Erreur connection Base de données");
 }
